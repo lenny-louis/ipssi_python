@@ -1,0 +1,97 @@
+#!/usr/bin/python3
+
+print("hello word")
+
+a = 1
+if a == 0:
+    print("toto")
+else:
+    print("a ne vaut pas 0")
+print("fin")  
+
+
+
+#Un entier 
+entier = 1
+#Un float 
+fl = 1.5
+#string 
+string = "chaine1"
+string = 'chaine1'
+string = """il va dire "coucou" assf"""
+"""
+commentaire multiligne 
+hzzbclzcuzvcue
+"""
+
+stringadd = "aa" + "bb"
+print(stringadd)
+
+if a == 0:
+    string = ("coucou\n"
+              "salut\n"
+              "hello")
+
+#nomenclature (style guide) PEP8
+
+alphabet = "abcdefghijklmnopqrstuvwxyz"
+
+if 'a' in alphabet:
+    print(" j'ai trouvé a")
+
+#tableau / list / array
+alist = list()
+alist = []
+alist = ["a","b"]
+
+#liste de int
+alist = ["0","1","2","3","4"]
+for x in alist:
+    print(x)
+print(alist)
+
+
+alist = range(15)
+print(alist)
+for x in alist:
+    print(x)
+
+for char in alphabet:
+    print(char, end="\n")
+
+for st in alist:
+    print(st)
+
+print("le 3eme element")
+print(alist[3])
+
+alist = []
+print(alist)
+alist.append("hello")
+print(alist)
+alist.append("hello")
+print(alist)
+alist.append("hello")
+print(alist)
+alist.pop()
+blist = ["salut", "salut"]
+print(alist + blist)
+
+
+
+adict = dict()
+adict = {}
+adict = { "fr": "salut", 
+          "en": "hello"}
+print(adict)
+
+print(adict["fr])
+
+lang = "fr"
+print(adict[lang])
+
+#pour avoir clef du dico
+for key in adict :
+    print(key)
+
+#pour avoir les deux
